@@ -2,7 +2,7 @@ import axios from 'axios';
 // Add a request interceptor
 import store from '../store/store'
 import actionCreator from '../store/actionCreator'
-import webstorage from '../utils/webstorage'
+import webstorage from './webstorage'
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
     // let data=config.data
